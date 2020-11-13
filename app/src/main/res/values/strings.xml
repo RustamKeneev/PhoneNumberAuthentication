@@ -6,4 +6,8 @@
     <string name="country_code">Please your Country Code and Phone number for verification</string>
     <string name="your_phone_number">Your Phone Number</string>
     <string name="generate_otp">Generate OTP</string>
+    <string name="we_send_otp">We have send your otp for phone number verification</string>
+    <string name="enter_your_otp">Enter Your OTP</string>
+    <string name="enter_otp">Enter OTP</string>
+    <string name="working">Working ...</string>
 </resources>

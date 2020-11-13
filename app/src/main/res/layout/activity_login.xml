@@ -87,5 +87,27 @@
         app:layout_constraintStart_toStartOf="@+id/editTextNumber"
         app:layout_constraintTop_toBottomOf="@id/editTextNumber" />
 
+    <ProgressBar
+        app:layout_constraintTop_toBottomOf="@id/please_your_country_text"
+        app:layout_constraintBottom_toTopOf="@id/editTextNumber"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        android:id="@+id/login_progress_bar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/login_feed_back"
+        app:layout_constraintTop_toBottomOf="@id/generate_otp_button"
+        app:layout_constraintLeft_toLeftOf="@id/generate_otp_button"
+        app:layout_constraintRight_toRightOf="@id/generate_otp_button"
+        android:visibility="invisible"
+        android:layout_marginTop="25dp"
+        android:text="@string/working"
+        android:textColor="#DF0303"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>
